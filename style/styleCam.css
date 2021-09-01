@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: kanit;
+  }
+  
+  header {
+    background-color: #845ec2;
+    display: flex;
+  
+    border-radius: 5px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  input {
+    background-color: #4b4453;
+    border: solid 1px;
+    border-radius: 15px;
+    margin-top: 12px;
+    width: 23rem;
+    margin-left: 10rem;
+  }
+  
+  body {
+    background-color: #4b4453;
+  }
+  
+  section {
+    background-color: rgba(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    
+    align-items: center;
+    text-align: center;
+
+    height: 58rem;
+  
+    border-radius: 10px;
+  }
+  
+  div {
+    display: inline-block;
+    
+    box-align: center;
+    text-align: center;
+   
+
+    margin-top: 6px;
+  }
+  
+  img {
+    margin-top: 1rem;
+    width: 25rem;
+
+  
+
+    display: inline-flex;
+  }
+  .camisa2 {
+    width: 197px;
+  }
+  .titulo-camisas {
+   
+    color: #4b4453;
+
+  }
+  
+  .preço {
+    text-align: center;
+    color: #c34a36;
+  }
+
+  .Titulo-tabela{
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-color: #4b4453;
+    padding: 0;
+    margin-left: 5rem;
+  
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    height: 50px;
+    width: 25rem;
+  
+    text-align: center;
+  }
+  
+  article {
+    margin-left: 5rem;
+  }
+  
+  h1 {
+    margin-left: 2rem;
+  }
+  
+  h2 {
+    margin-left: 18px;
+  }
+  
+  h3 {
+    margin-top: 2rem;
+    margin-left: 18px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #b0a8b9;
+    border-radius: 7px;
+    width: 4rem;
+  }
+  
+  p{
+    font-size: 2rem;
+  }
+
+  .Descrição{
+    text-align: left;
+
+    margin-left: 2rem;
+  }
+
+  .Texto-descrição {
+    text-align: left;
+      font-size: 20px;
+    margin-left: 1rem;
+    color: #4b4453;
+  }
+
+
+.camisa4{
+  size: 5px;
+}
