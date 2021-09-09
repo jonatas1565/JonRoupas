@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: kanit;
+  }
+  
+  header {
+    background-color: #845ec2;
+    display: flex;
+  
+    border-radius: 5px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  input{
+    width: 14rem;
+    border-color: #a776df;
+    border-radius: 4px;
+  }
+  
+  .input-pesquisar {
+    background-color: #4b4453;
+    border: solid 1px;
+    border-radius: 7px;
+    margin-top: 12px;
+    width: 23rem;
+    margin-left: 10rem;
+  }
+  
+  body {
+    background-color: #4b4453;
+  }
+  
+  section {
+    background-color: rgba(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    
+    align-items: center;
+    text-align: center;
+
+    height: 58rem;
+  
+    border-radius: 10px;
+  }
+  
+  div {  
+    box-align: center;
+    text-align: left;
+   
+    margin-top: 6px;
+    margin-left: 1rem;
+  }
+  
+  article {
+    margin-left: 5rem;
+  }
+  
+  h1 {
+    margin-left: 2rem;
+  }
+  
+  
+
+  
+  button {
+    cursor: pointer;
+    background-color: #b0a8b9;
+    border-radius: 7px;
+    width: 4rem;
+  }
+  
+  p{
+    font-size: 30px;
+    
+    margin-left: 5px;
+  }
+
+/*style nome*/
+  #NomeCompleto{
+      margin-left: 32px;
+  }
+/*Style Form Endereço*/
+  #Rua{
+      margin-left: 120px;
+  }
+  #Numero{
+    margin-left: 91px;
+  }
+
+  #Complemento{
+    margin-left: 46px;
+  }
+  #Bairro{
+    margin-left: 103px;
+  }
+  #Cidade{
+    margin-left: 97px;
+  }
+
+  /* Style Contatos*/
+  
+  #Celular{
+    margin-left: 97px;
+  }
+  #Email{
+    margin-left: 107px;
+  }
+
+  /* Style documentação*/
+  #Cpf{
+    margin-left: 120px;
+  }
+
+  #Identidade{
+    margin-left: 71px;
+  }
+
+  #Orgão{
+    margin-left: 28px;
+  }
+
+  /* style Filiação*/
+
+  #NomePai{
+    margin-left: 57px;
+  }
+  #NomeMae{
+    margin-left: 50px;
+  }
+
+  /*style Botão enviar*/
+#Enviar{
+  Cursor: pointer;
+  width: 20rem;
+  height: 50px;
+  background-color:#845ec2; 
+
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: #845ec2;
+}
+
+#Enviar:hover{
+  background-color: #7549bd;
+}
