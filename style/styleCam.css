@@ -20,7 +20,7 @@
   input {
     background-color: #4b4453;
     border: solid 1px;
-    border-radius: 15px;
+    border-radius: 7px;
     margin-top: 12px;
     width: 23rem;
     margin-left: 10rem;
@@ -139,3 +139,18 @@
 .camisa4{
   size: 5px;
 }
+
+
+.text-cadastro{
+  font-size: 20px;
+  color: #f77055;
+  }
+  
+  .cadastro{
+    margin-left: 15rem;
+    margin-top: 8px;
+  
+
+  
+    text-decoration: none;
+  }

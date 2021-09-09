@@ -12,13 +12,16 @@ header {
 
   border-radius: 5px;
 }
-input {
+.input-busca {
   background-color: #4b4453;
   border: solid 1px;
-  border-radius: 15px;
+  border-radius: 7px;
   margin-top: 12px;
   width: 23rem;
+  margin-left: 10rem;
 }
+
+
 
 body {
   background-color: #4b4453;
@@ -42,13 +45,14 @@ div {
 
   border-radius: 10px;
   border: 1px solid;
-  
+
+  padding: 3px;
 
   margin-top: 6px;
 }
 
 img {
-  margin-top: 10px;
+  margin-top: 4px;
 }
 .camisa2 {
   width: 197px;
@@ -99,7 +103,24 @@ button {
   background-color: #b0a8b9;
   border-radius: 7px;
   width: 4rem;
+  height: 26px;
+  margin-top: 3px;
 }
 
+.buscar{
+  width: 24px;
+  height: 24px;
+}
 
+.text-cadastro{
+font-size: 20px;
+color: #f77055;
+}
 
+.cadastro{
+  margin-left: 23rem;
+  margin-top: 9px;
+
+  text-decoration: none;
+}
+  
