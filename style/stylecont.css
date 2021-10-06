@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: kanit;
+    outline: none;
+  }
+  
+  header {
+    background: rgb(11,205,105);
+background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%, rgba(43,132,226,1) 100%);
+    display: flex;
+  
+    border-radius: 5px;
+  }
+  .input-busca {
+    background-color: white;
+    border: solid 1px;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-top: 12px;
+    width: 23rem;
+    height: 28px;
+    margin-left: 10rem;
+  }
+  nav{
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  a{
+    text-decoration: none;
+  }
+  li{
+  color:black;
+    list-style: none;
+    display: inline;
+  
+  
+  }
+  
+  p{
+      font-size: 34px;
+  }
+  body {
+     background: rgb(43,132,226);
+    background: linear-gradient(90deg, rgba(43,132,226,1) 1%, rgba(35,196,165,1) 41%, rgba(11,205,105,1) 100%);
+    
+  }
+  
+  section {
+    background-color: rgba(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 26rem;
+    margin-right: 10rem;
+  
+    height: 28rem;
+    width: 25rem;
+    border-radius: 10px;
+    text-align: center;
+
+  }
+  
+  div {
+    display: inline-block;
+  
+    margin-left: 50px;
+  
+    border-radius: 10px;
+    border: 1px solid;
+  
+    padding: 3px;
+  
+    margin-top: 6px;
+  }
+  
+  
+  
+  article {
+    margin-left: 5rem;
+  }
+  
+  h1 {
+    margin-left: 2rem;
+  }
+  
+  
+  button {
+    cursor: pointer;
+    background-color: #0bcd69;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 4rem;
+    height: 26px;
+    margin-top: 3px;
+  }
+  
+  .buscar{
+    width: 24px;
+    height: 24px;
+  }
+  
+  .text-cadastro{
+  font-size: 20px;
+  color: #f77055;
+  }
+  
+  .cadastro{
+    margin-left: 23rem;
+    margin-top: 9px;
+  
+    text-decoration: none;
+  }
+    
+  .contato{
+      margin-top: 15px;
+      display: block;
+
+      margin-left: 5rem;
+
+      width:15rem; 
+      height: 43px;
+
+}
+
+  label{
+    margin-left: 1rem;
+
+    font-size: 25px;
+  }
+.enviar{
+    width: 15rem;
+    height: 2rem;
+
+    margin-top: 30px;
+    border-width: 1px;
+}
+  

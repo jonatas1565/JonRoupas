@@ -4,27 +4,44 @@
   box-sizing: border-box;
 
   font-family: kanit;
+  outline: none;
 }
 
 header {
-  background-color: #845ec2;
+ background: rgb(11,205,105);
+  background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%, rgba(43,132,226,1) 100%);
   display: flex;
 
   border-radius: 5px;
 }
 .input-busca {
-  background-color: #4b4453;
+  background-color: white;
   border: solid 1px;
   border-radius: 7px;
   margin-top: 12px;
   width: 23rem;
   margin-left: 10rem;
+  height: 28px;
+}
+nav{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+a{
+  text-decoration: none;
+}
+li{
+color: black;
+  list-style: none;
+  display: inline;
+
+
 }
 
 
-
 body {
-  background-color: #4b4453;
+  background: rgb(43,132,226);
+    background: linear-gradient(90deg, rgba(43,132,226,1) 1%, rgba(35,196,165,1) 41%, rgba(11,205,105,1) 100%);
 }
 
 section {
@@ -100,7 +117,8 @@ h3 {
 
 button {
   cursor: pointer;
-  background-color: #b0a8b9;
+  background-color: #0bcd69;
+  border-width: 1px;
   border-radius: 7px;
   width: 4rem;
   height: 26px;
