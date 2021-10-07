@@ -4,10 +4,12 @@
     box-sizing: border-box;
   
     font-family: kanit;
+    outline: none;
   }
   
   header {
-    background-color: #845ec2;
+    background: rgb(11,205,105);
+    background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%, rgba(43,132,226,1) 100%);
     display: flex;
   
     border-radius: 5px;
@@ -16,18 +18,34 @@
   a{
     text-decoration: none;
   }
-
-  input {
-    background-color: #4b4453;
+  nav{
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  
+  li{
+  color: black;
+    list-style: none;
+    display: inline;
+  
+  }
+  input{
+    height: 28px;
+  }
+  #busca {
+    background-color: white;
     border: solid 1px;
+    border-width: 1px;
     border-radius: 7px;
     margin-top: 12px;
     width: 23rem;
     margin-left: 10rem;
+    
   }
   
   body {
-    background-color: #4b4453;
+    background: rgb(43,132,226);
+    background: linear-gradient(90deg, rgba(43,132,226,1) 1%, rgba(35,196,165,1) 41%, rgba(11,205,105,1) 100%);
   }
   
   section {
@@ -39,7 +57,7 @@
     align-items: center;
     text-align: center;
 
-    height: 58rem;
+    height: 62rem;
   
     border-radius: 10px;
   }
@@ -87,7 +105,7 @@
     margin-left: 5rem;
   
     margin-top: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
     height: 50px;
     width: 25rem;
   
@@ -113,8 +131,10 @@
   
   button {
     cursor: pointer;
-    background-color: #b0a8b9;
+    background-color: #0bcd69;
+    border-width: 1px;
     border-radius: 7px;
+    height: 26px;
     width: 4rem;
   }
   
@@ -153,4 +173,15 @@
 
   
     text-decoration: none;
+  }
+  
+  .compre{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 7px;
+   background-color:  #0bcd69;
+
+   font-size: 20px;
+
+   cursor: pointer;
   }
