@@ -19,7 +19,7 @@ background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%
     text-decoration: none;
   }
   nav{
-    margin-top: 10px;
+    margin-top: 13px;
     margin-left: 40px;
 
   }
@@ -103,7 +103,7 @@ background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%
 
 /*style nome*/
   #NomeCompleto{
-      margin-left: 32px;
+      margin-left: 105px;
   }
 /*Style Form Endereço*/
   #Rua{
@@ -148,10 +148,10 @@ background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%
   /* style Filiação*/
 
   #NomePai{
-    margin-left: 57px;
+    margin-left: 125px;
   }
   #NomeMae{
-    margin-left: 50px;
+    margin-left: 118px;
   }
 
   /*style Botão enviar*/
@@ -163,9 +163,108 @@ background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%
 
   border-radius: 10px;
   border: solid 1px;
-  
+  font-size: 20px;
 }
 
 #Enviar:hover{
   background-color: #2fb46f;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    margin-left: 0px;
+  }
+  nav {
+    margin-left: 10px;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  form {
+    height: 0px;
+    width: 0px;
+  }
+  #busca {
+    height: 0px;
+    width: 0px;
+  }
+
+  .buscar {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+  }
+
+  section {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+
+    height: 69rem;
+  }
+
+  div{
+    margin-top: 0px;
+  }
+ 
+
+  label{
+    font-size: 17px;
+
+    max-width: 70%;
+  }
+
+#NomeCompleto{
+  margin-left: 0px;
+}
+
+#Rua{
+  margin-left: 0px;
+}
+
+#Numero{
+  margin-left: 0px;
+}
+
+#Complemento{
+  margin-left: 0px;
+}
+#Bairro{
+  margin-left: 0px;
+}
+#Cidade{
+  margin-left: 0px;
+}
+
+#Celular{
+  margin-left: 0px;
+}
+#Email{
+  margin-left: 0px;
+}
+
+#Cpf{
+  margin-left: 0px;
+}
+
+#Identidade{
+  margin-left: 0px;
+}
+
+#Orgão{
+  margin-left: 0px;
+}
+
+#NomePai{
+  margin-left: 0px;
+}
+#NomeMae{
+  margin-left: 0px;
+}
+
+#enviar{
+  font-size:20px;
+}
+
 }

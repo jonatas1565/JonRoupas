@@ -14,22 +14,22 @@
 
 <body>
     <header>
-       
-        <h1 >JonRoupas</h1> 
-        <article>
-            <input class="input-pesquisar" type="text" placeholder="Buscar">
 
-            <button>Buscar</button>
-        </article>
-        <nav>
-            <ul>
-              <a href="./index.html"><li>| Home |</li></a>
-                <a href="./cadastro.html"><li>Cadastre-se |</li></a>
-                 <a href="./contato.html"><li>contato |</li></a> 
+        <h1 >JonRoupas</h1>
+       <form action=" " method="post">
+           
+           <input class="input-pesquisar" type="search" id="busca" name="q" placeholder="Buscar">
+           <button class="buscar" type="submit">Buscar</button>
+         </form>
+         <nav>
+           <ul>
+             <a href="./index.html"><li>| Home |</li></a>
+               <a href="./cadastro.html"><li>Cadastre-se |</li></a>
+                <a href="./contato.html"><li>contato |</li></a> 
                  
-            </ul>
-        </nav>
-    </header>
+           </ul>
+       </nav>
+   </header>
     
     
     <main>
@@ -38,7 +38,7 @@
                 <div>
             <p class="Subtitulos">Dados Pessoais</p>
 
-            <label for="NomeCompleto">Nome Completo</label>
+            <label for="NomeCompleto">Nome</label>
             <input type="text" id="NomeCompleto" required>
         <br>
     </div>
@@ -77,17 +77,14 @@
 <br>
             <label for="identidade">Identidade</label>
             <input type="text" id="Identidade" required>
-<br>
-            <label for="Orgão">Orgão expedidor</label>
-            <input type="text" id="Orgão">
 
         </div>
         <div>
         <p class="Subtitulos">Filição</p>
-        <label for="NomePai">Nome do Pai</label>
+        <label for="NomePai">Pai</label>
             <input type="text" id="NomePai">
             <br>
-            <label for="NomeMae">Nome da Mãe</label>
+            <label for="NomeMae">Mãe</label>
             <input type="text" id="NomeMae">
        
             
