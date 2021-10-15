@@ -1,187 +1,230 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
-    font-family: kanit;
-    outline: none;
-  }
-  
-  header {
-    background: rgb(11,205,105);
-    background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%, rgba(43,132,226,1) 100%);
-    display: flex;
-  
-    border-radius: 5px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-  a{
-    text-decoration: none;
-  }
-  nav{
-    margin-top: 10px;
-    margin-left: 40px;
-  }
-  
-  li{
+  font-family: kanit;
+  outline: none;
+}
+
+header {
+  background: rgb(11, 205, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(11, 205, 105, 1) 0%,
+    rgba(35, 196, 165, 1) 42%,
+    rgba(43, 132, 226, 1) 100%
+  );
+  display: flex;
+
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+nav {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+li {
   color: black;
-    list-style: none;
-    display: inline;
-  
-  }
-  input{
-    height: 28px;
-  }
-  #busca {
-    background-color: white;
-    border: solid 1px;
-    border-width: 1px;
-    border-radius: 7px;
-    margin-top: 12px;
-    width: 23rem;
-    margin-left: 10rem;
-    
-  }
-  
-  body {
-    background: rgb(43,132,226);
-    background: linear-gradient(90deg, rgba(43,132,226,1) 1%, rgba(35,196,165,1) 41%, rgba(11,205,105,1) 100%);
-  }
-  
-  section {
-    background-color: rgba(255, 255, 255);
-    margin-top: 5px;
-    margin-left: 20rem;
-    margin-right: 20rem;
-    
-    align-items: center;
-    text-align: center;
+  list-style: none;
+  display: inline;
+}
+input {
+  height: 28px;
+}
+#busca {
+  background-color: white;
+  border: solid 1px;
+  border-width: 1px;
+  border-radius: 7px;
+  margin-top: 12px;
+  width: 23rem;
+  margin-left: 10rem;
+}
 
-    height: 62rem;
-  
-    border-radius: 10px;
-  }
-  
-  div {
-    display: inline-block;
-    
-    box-align: center;
-    text-align: center;
-   
+body {
+  background: rgb(43, 132, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 132, 226, 1) 1%,
+    rgba(35, 196, 165, 1) 41%,
+    rgba(11, 205, 105, 1) 100%
+  );
+}
 
-    margin-top: 6px;
-  }
-  
-  img {
-    margin-top: 1rem;
-    width: 25rem;
+section {
+  background-color: rgba(255, 255, 255);
+  margin-top: 5px;
+  margin-left: 20rem;
+  margin-right: 20rem;
 
-  
+  align-items: center;
+  text-align: center;
 
-    display: inline-flex;
-  }
-  .camisa2 {
-    width: 197px;
-  }
-  .titulo-camisas {
-   
-    color: #4b4453;
+  height: 62rem;
 
-  }
-  
-  .preço {
-    text-align: center;
-    color: #c34a36;
-  }
+  border-radius: 10px;
+}
 
-  .Titulo-tabela{
-    text-align: left;
-  }
-  
-  table {
-    border-collapse: collapse;
-    border-color: #4b4453;
-    padding: 0;
-    margin-left: 5rem;
-  
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    height: 50px;
-    width: 25rem;
-  
-    text-align: center;
-  }
-  
-  article {
-    margin-left: 5rem;
-  }
-  
-  h1 {
-    margin-left: 2rem;
-  }
-  
-  h2 {
-    margin-left: 18px;
-  }
-  
-  h3 {
-    margin-top: 2rem;
-    margin-left: 18px;
-  }
-  
-  button {
-    cursor: pointer;
-    background-color: #0bcd69;
-    border-width: 1px;
-    border-radius: 7px;
-    height: 26px;
-    width: 4rem;
-  }
-  
-  p{
-    font-size: 2rem;
-  }
+div {
+  display: inline-block;
 
-  .Descrição{
-    text-align: left;
+  box-align: center;
+  text-align: center;
 
-    margin-left: 2rem;
-  }
+  margin-top: 6px;
+}
 
-  .Texto-descrição {
-    text-align: left;
-      font-size: 20px;
-    margin-left: 1rem;
-    color: #4b4453;
-  }
+img {
+  margin-top: 1rem;
+  width: 25rem;
 
+  display: inline-flex;
+}
+.camisa2 {
+  width: 197px;
+}
+.titulo-camisas {
+  color: #4b4453;
+}
 
-.camisa4{
+.preço {
+  text-align: center;
+  color: #c34a36;
+}
+
+.Titulo-tabela {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  border-color: #4b4453;
+  padding: 0;
+  margin-left: 5rem;
+
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  height: 50px;
+  width: 25rem;
+
+  text-align: center;
+}
+
+article {
+  margin-left: 5rem;
+}
+
+h1 {
+  margin-left: 2rem;
+}
+
+h2 {
+  margin-left: 18px;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-left: 18px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #0bcd69;
+  border-width: 1px;
+  border-radius: 7px;
+  height: 26px;
+  width: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.Descrição {
+  text-align: left;
+
+  margin-left: 2rem;
+}
+
+.Texto-descrição {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 1rem;
+  color: #4b4453;
+}
+
+.camisa4 {
   size: 5px;
 }
 
-
-.text-cadastro{
+.text-cadastro {
   font-size: 20px;
   color: #f77055;
-  }
-  
-  .cadastro{
-    margin-left: 15rem;
-    margin-top: 8px;
-  
+}
 
-  
-    text-decoration: none;
-  }
-  
-  .compre{
-    width: 10rem;
-    height: 3rem;
-    border-radius: 7px;
-   background-color:  #0bcd69;
+.cadastro {
+  margin-left: 15rem;
+  margin-top: 8px;
 
-   font-size: 20px;
+  text-decoration: none;
+}
 
-   cursor: pointer;
+.compre {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 7px;
+  background-color: #0bcd69;
+
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    margin-left: 0px;
   }
+
+  nav {
+    margin-left: 10px;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  form {
+    height: 0px;
+    width: 0px;
+  }
+  #busca {
+    height: 0px;
+    width: 0px;
+  }
+
+  .buscar {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+  }
+
+  section {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+  }
+
+  img {
+    height: 20rem;
+    width: 22rem;
+  }
+  table {
+    margin-left: 0px;
+    height: 50px;
+    width: 22rem;
+  }
+}

@@ -12,7 +12,7 @@ header {
   background: linear-gradient(90deg, rgba(11,205,105,1) 0%, rgba(35,196,165,1) 42%, rgba(43,132,226,1) 100%);
   display: flex;
 
-  border-radius: 5px;
+  
 }
 .input-busca {
   background-color: white;
@@ -50,7 +50,7 @@ section {
   margin-left: 10rem;
   margin-right: 10rem;
 
-  height: 42rem;
+  height: 38rem;
 
   border-radius: 10px;
 }
@@ -142,3 +142,61 @@ color: #f77055;
   text-decoration: none;
 }
   
+@media (max-width: 800px){
+  header{
+    width: 363px;
+  }
+  h1{
+    margin-left: 0rem;
+  }
+
+  h2 {
+    margin-left: 4px;
+    width: 30px;
+  }
+  form{
+    height: 0px;
+  width: 0px;
+  }
+
+  nav{
+    margin-top: 18px;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  button{
+    font-size: 0px;
+  height: 0px;
+  width: 0px;
+  }
+  .busca{
+    height: 0px;
+  width: 0px;
+  }
+  .input-busca {
+    height: 0px;
+    width: 0px;
+  }
+  body { overflow-x: hidden; }
+
+  section {
+    background-color: rgba(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 23rem;
+    height: 80rem;
+  
+    border-radius: 0px;
+  }
+.divcam2{
+  width: 15rem;
+}
+  table{
+    margin-left: 0;
+
+    height: 50px;
+    width: 22rem;
+  }
+
+}
